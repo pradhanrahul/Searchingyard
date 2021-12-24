@@ -1,0 +1,45 @@
+/*.main-nav{
+    width:100%;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-link{
+    grid-column: 3/4;
+  
+  }
+  .menu-link ul {
+    display: flex;
+    list-style: none;
+  }
+  .menu-link ul li{
+    padding: 0 2rem;
+  
+  
+  }
+  .menu-link ul li a:hover{
+    color: red;
+  
+  }
+  .media .social{
+    display: flex;
+    list-style: none;
+  }
+  .logo{
+    display: flex;
+    justify-content: start;
+  }
+  .bottom  {
+    text-align: center;
+  }
+  
+  @media screen and (max-width:100%){
+    .main-nav{
+      width:100%;
+    }
+    
+  }
+  */
