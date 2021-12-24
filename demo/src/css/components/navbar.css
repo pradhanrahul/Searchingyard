@@ -1,0 +1,85 @@
+.main-navbar{
+ width:100%;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.menu-links{
+    grid-column: 3/4;
+    font-family: sans-serif;
+}
+.menu-links ul{
+    display: flex;
+    list-style: none;
+
+
+}
+.menu-links ul li{
+    padding: 0 2rem;
+
+  }
+  .menu-links ul li a{
+      text-decoration: none;
+  }
+
+  .menu-links ul li a:hover{
+    color: orange;
+  }
+.medias socials{
+    display: flex;
+    color: orange;
+    list-style: none;
+}
+
+.headermain{
+    background-image: url("../../assets/images/hero-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.logo1 img{
+    height:50px;
+    width: 150px;
+    margin-left: 70px;
+
+}
+.socials{
+    display: flex;
+}
+.socials li{
+    color: #000;
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 7px;
+}
+.fresh{
+    text-align: center;
+    color: orange;
+}
+.fresh1 h1{
+    font-size: 50px;
+}
+.fresh1{
+    text-align: center;
+    color: orange;
+}
+.btn {
+    text-align: center;
+    margin-top: 50px;
+margin: 5px;
+}
+.shipping ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    color: orange;
+}
+
+
+
+
+
+
+
