@@ -25,7 +25,7 @@ function Errorpage() {
           id="outlined-basic"
           type="text"
           placeholder="Search..."
-          className="search11"
+          className="anyclassname"
           variant="outlined"
           InputProps={{
             classes: {
@@ -35,9 +35,11 @@ function Errorpage() {
             },
           }}
         />
+       
         <Button variant="contained" className="view">
           Search
         </Button>
+       
       </div>
     </div>
   );
