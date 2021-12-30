@@ -42,14 +42,16 @@
   color: white;
 }
 .search {
-  text-align: center;
+  text-align: center !important;
   width: 100%;
 }
 
 .view {
-  height: 55px;
+  height: 55px !important;
+  border-radius: 15px !important;
 }
 .anyclassname {
   background-color: whitesmoke !important;
-  padding-left: 1rem;
+  padding-left: 1rem !important;
+  border-radius: 10px !important;
 }
